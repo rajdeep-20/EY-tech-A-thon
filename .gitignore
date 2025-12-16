@@ -29,3 +29,23 @@ automation/*.pyc
 automation/.pytest_cache/
 automation/data/
 automation/logs/
+
+# Temporary Test & Debug Files
+test_results.txt
+test_risk_input.json
+dummy_doc.txt
+sample_err.txt
+risk_output.txt
+sanction_output.txt
+*.pdf
+!samples/*.pdf
+
+# Server Debug Files
+server/server_risk_output.txt
+server/debug_risk.json
+server/debug_sanction.json
+server/server.log
+server/server_log_copy.txt
+server/build.log
+server/*.csv
+loan_data_synthetic.csv
